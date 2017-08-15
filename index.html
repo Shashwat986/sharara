@@ -117,7 +117,7 @@
         <div class="text-center">
           <textarea rows="5" maxlength="700" id="ta"></textarea>
         </div>
-        <div class="text-center" style="padding-bottom: 10px;">
+        <div class="text-center" id="hidefinal2" style="padding-bottom: 10px;">
           <a class="btn btn-light" onclick="main()">
             <i class="icon-pencil"></i>
             Send
@@ -132,6 +132,7 @@
     <script type="text/javascript">
       function main () {
         document.getElementById("hidefinal").style.display = "none";
+        document.getElementById("hidefinal2").style.display = "none";
         document.getElementById("ta").disabled = true;
         document.getElementById("final").style.display = "block";
       }
