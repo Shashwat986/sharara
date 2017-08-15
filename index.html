@@ -6,6 +6,11 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+    <meta property="og:image" content="ogimage.png"/>
+    <meta property="og:title" content="Sharara - Shashwat"/>
+    <meta property="og:description" content="Sharara"/>
+
+
     <title>Sharara - Shashwat Chandra</title>
 
     <!-- Bootstrap core CSS -->
@@ -98,10 +103,16 @@
           Shashwat
           </h5>
         </div>
-        <div class="text-center" id="final" style="display: none;">
-          Now, why don't you share it directly with Shashwat?
+        <div class="text-center" id="hidefinal" style="padding-bottom: 5px;">
+          Leave a constructive message :)
+        </div>
+        <div class="text-center">
+          <textarea rows="5" maxlength="700" id="ta"></textarea>
+        </div>
+        <div class="text-center" id="final" style="display: none; padding-top: 10px;">
+          <h6 style="margin-bottom: 0;">Now, why don't you share it directly with Shashwat?</h6>
           <br/>
-          <div class="social" style="font-size: 20px; padding-top: 10px; padding-bottom: 10px;">
+          <div class="social" style="font-size: 20px; padding-bottom: 10px;">
             <a href="https://www.facebook.com/chandra.shashwat" target="_blank">
               <i class="icon-fb"></i>
             </a>
@@ -109,13 +120,6 @@
               <i class="icon-messenger"></i>
             </a>
           </div>
-
-        </div>
-        <div class="text-center" id="hidefinal" style="padding-bottom: 5px;">
-          Leave a constructive message :)
-        </div>
-        <div class="text-center">
-          <textarea rows="5" maxlength="700" id="ta"></textarea>
         </div>
         <div class="text-center" id="hidefinal2" style="padding-bottom: 10px;">
           <a class="btn btn-light" onclick="main()">
