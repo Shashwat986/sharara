@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Sharara - Shashwat Chandra</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="icomoon/style.css">
+
+    <style>
+      .navbar {
+        background-color: #10bbb3;
+        color: #fff;
+        height: 50px;
+      }
+      .navbar a {
+        color: #fff;
+      }
+
+      body {
+        font-weight: 300;
+        font-size: 14px;
+        background-color: #f5f8fa;
+      }
+
+      .main {
+        background-color: #fff;
+        border-radius: 5px;
+      }
+
+      textarea {
+        width: 70%;
+        border: 1px solid #10bbb3;
+        border-radius: 10px;
+        box-shadow: none;
+        padding: 5px 10px;
+      }
+
+      .btn-light {
+        color: #10bbb3 !important;
+        background-color: #fff;
+        border-color: #10bbb3;
+        font-size: 14px;
+        font-weight: 300;
+        cursor: pointer;
+      }
+
+      .btn-light:hover {
+        background-color: #10bbb3;
+        color: #fff !important;
+      }
+
+      .social a {
+        margin: 0 5px;
+      }
+
+      .social a:hover {
+        text-decoration: none;
+      }
+    </style>
+
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-md fixed-top" style="background-color: #10bbb3;">
+      <a class="navbar-brand" href="#">
+        <img src="https://sarahah.com/img/Logo.png" />
+        Sharara
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Hello</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">What's up?</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="main" style="margin: 135px 40px 0;">
+        <div class="text-center" style="position: relative; padding-bottom: 60px;">
+          <img src="https://scontent.fblr1-2.fna.fbcdn.net/v/t1.0-9/13092019_10207865963141920_5499688881304413999_n.jpg?oh=d4ce66904c2d103a7b66440dcc920d12&oe=5A1E12A1" style="height: 100px; width: 100px; border-radius: 50%; position: absolute; left: calc(50% - 50px); top: -50px;"/>
+        </div>
+        <div class="text-center" style="padding-bottom: 25px;">
+          <h5 style="font-size: 16px;">
+          Shashwat
+          </h5>
+        </div>
+        <div class="text-center" id="final" style="display: none;">
+          Now, why don't you share it directly with Shashwat?
+          <br/>
+          <div class="social" style="font-size: 20px; padding-top: 10px; padding-bottom: 10px;">
+            <a href="https://www.facebook.com/chandra.shashwat" target="_blank">
+              <i class="icon-fb"></i>
+            </a>
+            <a href="https://www.messenger.com/t/chandra.shashwat" target="_blank">
+              <i class="icon-messenger"></i>
+            </a>
+          </div>
+
+        </div>
+        <div class="text-center" id="hidefinal" style="padding-bottom: 5px;">
+          Leave a constructive message :)
+        </div>
+        <div class="text-center">
+          <textarea rows="5" maxlength="700" id="ta"></textarea>
+        </div>
+        <div class="text-center" style="padding-bottom: 10px;">
+          <a class="btn btn-light" onclick="main()">
+            <i class="icon-pencil"></i>
+            Send
+          </a>
+        </div>
+      </div>
+    </div><!-- /.container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript">
+      function main () {
+        document.getElementById("hidefinal").style.display = "none";
+        document.getElementById("ta").disabled = true;
+        document.getElementById("final").style.display = "block";
+      }
+    </script>
+  </body>
+</html>

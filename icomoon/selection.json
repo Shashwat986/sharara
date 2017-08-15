@@ -1,0 +1,140 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M967.488 0h-910.976c-31.232 0-56.512 25.28-56.512 56.512v910.976c0 31.232 25.28 56.512 56.512 56.512h490.432v-396.544h-133.504v-154.496h133.504v-114.112c0-132.224 80.768-204.16 198.784-204.16 56.512 0 105.088 4.096 119.232 6.016v138.24h-81.92c-64 0-76.48 30.72-76.48 75.52v98.56h152.96l-19.84 154.88h-133.12v396.096h260.928c31.232 0 56.512-25.28 56.512-56.512v-910.976c0-31.232-25.28-56.512-56.512-56.512z"
+        ],
+        "attrs": [
+          {
+            "fill": "rgb(59, 89, 152)"
+          }
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "brand",
+          "facebook"
+        ],
+        "grid": 0,
+        "colorPermutations": {
+          "132255159891521": [
+            {
+              "f": 0
+            }
+          ]
+        }
+      },
+      "attrs": [
+        {
+          "fill": "rgb(59, 89, 152)"
+        }
+      ],
+      "properties": {
+        "order": 1,
+        "id": 1,
+        "prevSize": 32,
+        "code": 59649,
+        "name": "fb"
+      },
+      "setIdx": 0,
+      "setId": 2,
+      "iconIdx": 0
+    },
+    {
+      "icon": {
+        "paths": [
+          "M512 0c-282.752 0-512 212.224-512 474.048 0 149.248 74.432 282.24 190.72 369.28v180.672l174.4-95.68c46.528 12.8 95.808 19.84 146.88 19.84 282.752 0 512-212.288 512-474.112 0-261.76-229.248-474.048-512-474.048zM562.88 638.4l-130.368-139.072-254.4 139.072 279.808-297.088 133.568 139.072 251.264-139.072-279.872 297.088z"
+        ],
+        "attrs": [
+          {
+            "fill": "rgb(0, 132, 255)"
+          }
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "brand",
+          "messenger"
+        ],
+        "grid": 0
+      },
+      "attrs": [
+        {
+          "fill": "rgb(0, 132, 255)"
+        }
+      ],
+      "properties": {
+        "order": 1,
+        "id": 0,
+        "name": "messenger",
+        "prevSize": 32,
+        "code": 59648
+      },
+      "setIdx": 0,
+      "setId": 2,
+      "iconIdx": 1
+    },
+    {
+      "icon": {
+        "paths": [
+          "M864 0c88.364 0 160 71.634 160 160 0 36.020-11.91 69.258-32 96l-64 64-224-224 64-64c26.742-20.090 59.978-32 96-32zM64 736l-64 288 288-64 592-592-224-224-592 592zM715.578 363.578l-448 448-55.156-55.156 448-448 55.156 55.156z"
+        ],
+        "tags": [
+          "pencil",
+          "write",
+          "edit"
+        ],
+        "defaultCode": 59653,
+        "grid": 16,
+        "attrs": []
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "pencil, write",
+        "name": "pencil",
+        "order": 2,
+        "id": 6,
+        "prevSize": 32,
+        "code": 59653
+      },
+      "setIdx": 1,
+      "setId": 1,
+      "iconIdx": 5
+    }
+  ],
+  "height": 1024,
+  "metadata": {
+    "name": "icomoon"
+  },
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon"
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon"
+    },
+    "historySize": 50,
+    "showCodes": true,
+    "gridSize": 16
+  }
+}
